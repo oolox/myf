@@ -12,8 +12,7 @@ $icon-font-path: '../fonts/';
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background-color: #8C6929;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -42,6 +41,13 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+}
+
+.container
+{
+  background-color: white;
+  padding-left:0px;
+  padding-right:0px;
 }
 
 /* Customize container */
@@ -89,4 +95,13 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+
+.banner {
+  background-color: #310808;
+  color:white;
+  position: relative;
+
+
 }
