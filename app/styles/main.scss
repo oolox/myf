@@ -101,11 +101,31 @@ body {
   }
 }
 
+a {
+  color: #310808 !important;
+}
+
+a:hover {
+  color: #fff !important;
+  background-color: #310808 !important;
+}
+
+
 
 .banner {
   background-color: #310808;
   color:white;
   position: relative;
+  height: 115px;
+  padding-top: 20px;
+  padding-left:250px;
 
+  background-image: url("../images/MYF-Banner.jpg");
+  background-repeat: no-repeat;
+
+  .banner-title
+  {
+    font-size: 24px;
+  }
 
 }
